@@ -17,8 +17,10 @@ The PowerApp-based Leave Tracker application is a comprehensive and user-friendl
 # Pre-requisite
 Subscription: 
           Any Microsoft subscription service included with PowerPlatform service 
+
+We utilized # PowerApps and #Power Automate (formerly known as Microsoft Flow) in the development of the Leave Tracker application
           
- # Application Frontend Development Overview
+ # Application Frontend Development Overview - PowerApps
  ## Landing Page 
  
  The frontend of the Leave Tracker application is designed with a user-centric approach, providing a simple and intuitive interface for employees to manage their leave     requests, view company holidays, and track their leave balances. 
@@ -51,10 +53,20 @@ Clicking on the "New Request" button brings up a form where users can select the
  ##  Privilege User - Dashboard for Approving the Leave
 ![image](https://user-images.githubusercontent.com/48203727/236310144-59b6b94a-3065-4bd4-8f96-2b0aa961d6bf.png)
 
+#  Backend - Power Automate Flow & Sharepoint 
+
+Power Automate allowed us to create the workflows necessary for the application, such as the workflow for submitting, reviewing, and approving leave requests. We were able to create decision points in the workflow to allow managers to review and approve or reject leave requests based on various factors such as the employee's leave balance, workload, and team requirements.
+  ![image](https://user-images.githubusercontent.com/48203727/236312570-2d27294c-5b15-46b3-abe4-76f803e1d037.png)
+  
+# Secuirty and Privacy 
+  - Security and privacy are crucial considerations for any application, and the Leave Tracker application is no exception. In the development of this application, we     have implemented various security measures to ensure the confidentiality and integrity of the data and user information.
+
+  - One of the key security features of the Leave Tracker application is the implementation of two separate logins - one for regular users and one for privileged           users. This ensures that only authorized users can access the application and its features, and that access to sensitive data and workflows is restricted to           specific roles or permissions
+  
+  - All user data and application data are stored in a secure, cloud-based database (Sharepoint) that is protected by advanced encryption and access controls. This ensures that         user information and leave requests are kept confidential and are only accessible to authorized personnel.
 
 
 
-#  Backend 
 
 
 
