@@ -48,10 +48,13 @@ The Leave Tracker application also features a "New Request" button on the dashbo
 
 Clicking on the "New Request" button brings up a form where users can select the type of leave they want to request, specify the start and end dates, and provide any additional details or comments. Once the request is submitted, it is automatically added to the user's list of requests in the My Requests component
 
-## UI Components
-- Navigation  - Displaying the List of Request , Pending, Approved or Rejected status 
-- 3
-- Background Color - Properties of c
+ ##  Privilege User - Dashboard for Approving the Leave
+![image](https://user-images.githubusercontent.com/48203727/236310144-59b6b94a-3065-4bd4-8f96-2b0aa961d6bf.png)
+
+
+
+
+#  Backend 
 
 
 
