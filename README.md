@@ -18,7 +18,8 @@ The PowerApp-based Leave Tracker application is a comprehensive and user-friendl
 Subscription: 
           Any Microsoft subscription service included with PowerPlatform service 
 
-We utilized # PowerApps and #Power Automate (formerly known as Microsoft Flow) in the development of the Leave Tracker application
+# Technology Stack
+We utilized PowerApps, Power Automate (formerly known as Microsoft Flow) in the development of the Leave Tracker application
           
  # Application Frontend Development Overview - PowerApps
  ## Landing Page 
@@ -58,12 +59,18 @@ Clicking on the "New Request" button brings up a form where users can select the
 Power Automate allowed us to create the workflows necessary for the application, such as the workflow for submitting, reviewing, and approving leave requests. We were able to create decision points in the workflow to allow managers to review and approve or reject leave requests based on various factors such as the employee's leave balance, workload, and team requirements.
   ![image](https://user-images.githubusercontent.com/48203727/236312570-2d27294c-5b15-46b3-abe4-76f803e1d037.png)
   
-# Secuirty and Privacy 
+SharePoint provided the data storage and management capabilities for the Leave Tracker application. We used SharePoint lists to store the user information, leave requests, and other data relevant to the application. This allowed us to easily manage and retrieve the data, as well as provide access control and security features to ensure that the data was only accessible to authorized personnel.
+
+
+  
+# Security and Privacy 
   - Security and privacy are crucial considerations for any application, and the Leave Tracker application is no exception. In the development of this application, we     have implemented various security measures to ensure the confidentiality and integrity of the data and user information.
 
-  - One of the key security features of the Leave Tracker application is the implementation of two separate logins - one for regular users and one for privileged           users. This ensures that only authorized users can access the application and its features, and that access to sensitive data and workflows is restricted to           specific roles or permissions
+  - In the Leave Tracker application, we have implemented RBAC by defining different user roles and assigning specific permissions to each role. Regular users are         given access to the leave request submission and tracking features, while managers and privileged users are given access to additional features such as the             approval and rejection of leave requests and the management of user data.
+
+  - Furthermore, we have implemented access controls based on the individual user's role and permissions. This ensures that regular users cannot access or modify data     or workflows that they are not authorized to, and that managers and privileged users can only access the data and workflows that are relevant to their roles.
   
-  - All user data and application data are stored in a secure, cloud-based database (Sharepoint) that is protected by advanced encryption and access controls. This ensures that         user information and leave requests are kept confidential and are only accessible to authorized personnel.
+  - All user data and application data are stored in a secure, cloud-based database (Sharepoint) that is protected by advanced encryption and access controls. This         ensures that user information and leave requests are kept confidential and are only accessible to authorized personnel.
 
 
 
