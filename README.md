@@ -19,7 +19,8 @@ Subscription:
           Any Microsoft subscription service included with PowerPlatform service 
 
 # Technology Stack
-We utilized PowerApps, Power Automate (formerly known as Microsoft Flow) in the development of the Leave Tracker application
+  - Power Apps Version-23044
+  - Power Automate Version-2301.4
           
  # Application Frontend Development Overview - PowerApps
  ## Landing Page 
