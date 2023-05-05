@@ -1,4 +1,4 @@
-# Leave-Tracker
+# TiQHUB PTO Manager
 ![image](https://user-images.githubusercontent.com/48203727/236288415-68e0746b-b53d-4b9d-9b9a-dd17cda95a7e.png)
 
 
